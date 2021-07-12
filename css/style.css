@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-image: url("../img/Imagen-fondo.jpg");
+    background-size: 160vh;
+    background-attachment: fixed;
+}
+.principal{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding: 10px;  
+}
+
+#bienvenida{
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+
+} 
+.idiomas{
+    color: rgb(255, 255, 255);  
+    display: flex;
+    flex-direction: row;
+    padding-right: 70px;
+}
+.idiomas li{ 
+    margin: 10px;
+    list-style: none;
+}
+
+#logo-nav{
+    background-color: #F0A83E;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 50px;
+    flex-wrap: wrap;
+}
+
+#logo{ 
+    width:  332.76px;
+    height: 46px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+}
+
+.menu li, a{
+    margin: 5px;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color:#FFFFFF;
+    list-style: none;
+}
+
+
+.entrada{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    background-image: url("/img/bowl-and-pet-daities-on-green-background\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    padding-right:  100px;
+    }    
+
+#Titulo{
+    position: relative;
+    top:150px;
+    width: 400;
+    color: #3C2313;
+    size: 40px;
+    background-color: rgb(255, 255, 255);
+    padding: 12px;
+    border-radius: 15px; 
+}
+
+#Mensaje{
+    position: relative;
+    top: 80px;
+    right: 80px;
+    color:#3C2313;  
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 80px;
+}
+
+#BotonComederos{
+    position: relative;
+    top:85px;
+    right: 100px;
+    padding: 20px;
+    background-color: #F0A83E;
+    font-weight: 300;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 200px;
+    border-radius: 10px;
+    
+}
+
+.c2{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin:30px;
+}
+
+h2 strong{
+    font-weight: 700;
+    color: #3C2313;
+    font-size: 40px;
+}   
+
+p #huella{
+    color: #F0A83E;
+    font-size: 65px;
+    margin: 10px;
+}
+
+#idea{
+    color: #666666;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+
+
+    color: #3C2313;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    margin:50px;
+}
+
+.precio{
+    color: #F0A83E;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+.formulario{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.formulario h2{
+    font-size: 30px;
+    color: #3C2313;
+    margin: 10px;
+}
+
+.formulario input{
+    background-color: #3C2313;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 30px;
+    margin: 3px;
+}
+::placeholder{
+    color:white;
+    font-size: 12px;
+    font-weight: 400; 
+    text-align: justify;   
+ }
+
+ #res{
+    border-radius: 5px;
+    background-color: #8A8787;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 10px 10px;
+    margin-top: 7px ;
+ }
+
+#send{
+    border-radius: 5px;
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 10px 10px;
+}
+
+.suscribirse{
+    background-color: #F0A83E;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.suscribirse p{
+    font-size: 20px;
+    font-weight: 700;
+    color:#FFFFFF;
+    margin: 10px;
+}
+
+i{
+    font-size: 30px;
+    color: #FFFFFF;
+    margin: 5px;
+}
+
+.suscribirse input{
+    background: #FFFFFF;
+}
+
+.suscribirse ::placeholder{
+    color: #8A8787;
+    border-radius: 10px;
+}
+
+#scr{
+    border-radius: 10px;
+    color: #FFFFFF;
+    background-color: #3C2313;
+    padding: 5px 50px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.datos{
+    background-color: #3C2313;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.datos span{
+    font-size: 21px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.da{
+    background: #8A8787;
+    padding: 10px 10px;
+    font-size: 45px;
+    color:#FFFFFF;
+
+    border-radius: 100%;
+}
+
+#date{
+    color: #8A8787;
+    margin-left: 51px;
+}
+
+footer{
+    background-color: #222222;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+#LogoFinal{
+    width: 332px;
+    height: 46px;
+    margin: 10px;
+}
+
+@media  (max-width: 525px){
+    .principal{
+        display:none;
+    }
+}
+
+a:visited, a:link {
+color: rgb (98, 8, 194);
+font-weight: bold;
+}
+
+a:hover {
+    background-color: blueviolet;
+}
+
+
+a:active{
+    background-color: red;
+}
+
+input:focus {
+    border:2px;
+    color:orange;
+    font-weight:bold;
+    border-color: cyan;
+}
+
+#BotonComederos:hover {
+background-color: blueviolet;
+}
+
+#BotonComederos:active {
+    background-color: red;
+}
+
+#scr:hover {
+    background-color: blueviolet;
+}
+
+#scr:active {
+    background-color: red;
+}
+
+#res:hover {
+    background-color: blueviolet;
+}
+
+#res:active {
+    background-color: red;
+}
+
+#send:hover {
+    background-color: blueviolet;
+}
+
+#send:active {
+    background-color: red;
+}
